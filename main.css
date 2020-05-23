@@ -52,7 +52,6 @@ img{
 /*Start reusable*/
 .container{
     width: 90%;
-    max-width: ;
     height: 100%;
     margin: 0 auto;
     position: relative;
