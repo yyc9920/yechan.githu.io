@@ -30,7 +30,7 @@ body{
 }
 
 section{
-    padding: 6rem;
+    padding: 6rem 0;
 }
 
 a{
@@ -273,14 +273,14 @@ li{
     transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
-    color: #4267b2;
+.fa-instagram-square:hover{
+    color: #e51c62;
 }
-.fa-twitter-square:hover{
-    color: #38a1f3;
+.fa-github-square:hover{
+    color: #3b3b3b;
 }
-.fa-dribbble-square:hover{
-    color: #ea4c89;
+.fa-linkedin:hover{
+    color: #4b7ae7;
 }
 /*End about*/
 
@@ -352,10 +352,10 @@ li{
 }
 
 .portfolio-description h6{
-    font-size: 1.5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    color: #eee;
 }
 
 .portfolio-description .cta{
@@ -433,38 +433,16 @@ li{
 /*End timeline*/
 
 /*Start contact*/
+div {
+    text-align: center;
+}
 form{
     width: 70%;
     margin: 0 auto;
 }
 
-form label{
-    font-size: 1.5rem;
-}
-
-input,
-select,
-textarea{
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 5px;
-    border: none;
-    outline-color: #fd57bf;
-}
-
-input[type="submit"]{
-    width: initial;
-    background-color: #fd57bf;
-    color: #eee;
-    padding: 1rem 2rem;
-    border-radius: .8rem;
-    cursor: pointer;
-    transition: background-color 650ms;
-}
-
-input[type="submit"]:hover{
-    color: #221e3f;
-    background-color: #ffe838;
+input[type="image"]:hover{
+    color: #00ffee;
 }
 /*End contact*/
 
@@ -487,7 +465,7 @@ input[type="submit"]:hover{
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
-    cursur: pointer;
+    cursor: pointer;
 }
 
 .up i{
@@ -518,9 +496,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px) {
     body{
-        width: 100%;
-        height: 100%;
-        background: url("images/sitebag.jpg") no-repeat center fixed;
+        background: url("images/sitebag2.jpg") no-repeat center fixed;
         background-size: cover;
     }
 

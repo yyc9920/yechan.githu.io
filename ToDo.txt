@@ -2,6 +2,14 @@
 
 Contact에 있는 Submit 버튼 누르면 Gmail로 입력한 정보 바탕으로 메일 전송 -> gmail.com으로
 
+Portfolio view details 링크 연결하기
+
+텍스트 수정할것
+- Services 목록
+- Services 설명
+- Portfolio 설명
+- Work Experience 내용
+
 For anyone else wondering about the nav-link Historia font, here are the steps:
 1. Download the font at https://www.dafont.com/the-historia.font
 2. Upload TheHistoriaDemo.ttf here to generate a web font kit https://www.fontsquirrel.com/tools/webfont-generator
@@ -18,3 +26,5 @@ For anyone else wondering about the nav-link Historia font, here are the steps:
 .nav-link{
   font-family:"The Historia Demo", sans-serif;
 }
+
+웹페이지 아이콘 추가
