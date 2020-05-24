@@ -21,6 +21,6 @@ $(document).ready(function () {
 
     AOS.init({
         easing: 'ease',
-        duration: 1500,
+        duration: 1200,
     })
 });
