@@ -233,9 +233,7 @@ li{
 
 .landing-text{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -363,18 +361,21 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
+    flex-wrap: wrap;
 }
 
 .portfolio-item:last-child{
     margin-bottom: 0;
 }
 
-.profile-img{
+.portfolio-img{
     width: 50rem;
     flex: 1;
 }
 
 .portfolio-description{
+    flex: 1;
+  margin: 1rem;
 }
 
 .portfolio-description h1{
@@ -610,7 +611,7 @@ input[type="image"]:hover{
     }
 
     .profile-img{
-        margin: 0 7rem 7rem 7rem;;
+        margin: 0 7rem 7rem 7rem;
     }
 
     .portfolio-item{
