@@ -6,9 +6,6 @@
   font-style: normal;
 }
 
-.nav-link{
-  font-family:"The Historia Demo", sans-serif;
-}
 /*Start global*/
 *{
     margin: 0;
@@ -26,7 +23,7 @@ body{
     width: 100%;
     height: 100%;
     background: url("images/sitebag.jpg") no-repeat center fixed;
-    background-size: cover;
+    text-align: center;
 }
 
 section{
@@ -38,14 +35,15 @@ a{
     color: #eee;
 }
 
-p{
+section p{
     font-size: 1.8rem;
-    font-weight: 300;
 }
 
+/*
 img{
     width: 100%;
 }
+*/
 
 /*End global*/
 
@@ -256,8 +254,13 @@ li{
 }
 
 .profile-img{
+    max-width: 30rem;
     flex: 1;
-    margin-right: 5rem;
+    margin: 0 3rem 7rem 0;
+}
+
+.profile-img img {
+  border-radius: 60%;
 }
 
 .about-details{
@@ -586,7 +589,8 @@ input[type="image"]:hover{
     }
 
     .portfolio-img{
-        margin: 0 0 2rem 0;
+        max-width: 100%;
+        margin-bottom: 2rem;
         order: 1;
     }
 
