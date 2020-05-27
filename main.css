@@ -1,10 +1,51 @@
+/*Fonts Start*/
 @font-face {
+
   font-family: 'The Historia Demo';
   src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
        url('fonts/thehistoriademo-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Marlon';
+  src: url('fonts/marlon-webfont.woff2') format('woff2'),
+       url('fonts/marlon-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Batman Forever';
+  src: url('fonts/batmfa__-webfont.woff2') format('woff2'),
+       url('fonts/batmfa__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Demode';
+  src: url('fonts/demode-webfont.woff2') format('woff2'),
+       url('fonts/demode-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Super Retro';
+  src: url('fonts/super_retro_m54-webfont.woff2') format('woff2'),
+       url('fonts/super_retro_m54-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Fonts End*/
+
+/*
+.nav-link{
+  font-family:"Marlon", sans-serif;
+}
+*/
 
 /*Start global*/
 *{
@@ -15,7 +56,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Batman Forever', sans-serif;
     color: #eee;
 }
 
@@ -35,7 +76,12 @@ a{
 }
 
 section p{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
+}
+
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /**
@@ -64,7 +110,7 @@ section p{
   right: 0;
   bottom: 0;
   top: 0;
-  background: #3F51B5;
+  background: #0C4056;
   opacity: 0.8; }
 
 /*
@@ -165,7 +211,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Marlon', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -201,7 +247,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #FB2162, #ffe838);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -240,9 +286,9 @@ li{
 }
 
 .landing-text h1{
-    font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    font-size: 16rem;
+    font-family: 'Super Retro', sans-serif;
+    background: linear-gradient(#FB6660, #EFD477);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -340,8 +386,8 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #FB6660;
+    background-color: #20BDA1;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -426,6 +472,7 @@ li{
 }
 
 .timeline .date{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
     padding-bottom: 1rem;

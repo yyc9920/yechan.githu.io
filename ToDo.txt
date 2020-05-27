@@ -16,15 +16,15 @@ For anyone else wondering about the nav-link Historia font, here are the steps:
 3. From the kit, take .woff and .woff2 files and paste them in your project folder. I created a subfolder fonts for that.
 4. Put this in your CSS: 
 @font-face {
-  font-family: 'The Historia Demo';
-  src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
-       url('fonts/thehistoriademo-webfont.woff') format('woff');
+  font-family: 'Marlon';
+  src: url('fonts/marlon-webfont.woff2') format('woff2'),
+       url('fonts/marlon-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 .nav-link{
-  font-family:"The Historia Demo", sans-serif;
+  font-family:"Marlon", sans-serif;
 }
 
 웹페이지 아이콘 추가
