@@ -288,7 +288,17 @@ li{
 .landing-text h1{
     font-size: 16rem;
     font-family: 'Super Retro', sans-serif;
-    background: linear-gradient(#FB6660, #EFD477);
+    background: #F28705;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
+.landing-text h2{
+    font-size: 16rem;
+    font-family: 'Super Retro', sans-serif;
+    background: #F2CB05;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
