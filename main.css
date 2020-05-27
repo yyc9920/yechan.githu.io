@@ -286,7 +286,7 @@ li{
 }
 
 .landing-text h1{
-    font-size: 16rem;
+    font-size: 12rem;
     font-family: 'Super Retro', sans-serif;
     background: #F28705;
     -webkit-background-clip: text;
@@ -296,7 +296,7 @@ li{
 }
 
 .landing-text h2{
-    font-size: 16rem;
+    font-size: 10rem;
     font-family: 'Super Retro', sans-serif;
     background: #F2CB05;
     -webkit-background-clip: text;
