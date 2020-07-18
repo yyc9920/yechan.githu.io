@@ -39,6 +39,47 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'SongFont';
+    src: url('fonts/please_write_me_a_song-webfont.woff2') format('woff2'),
+         url('fonts/please_write_me_a_song-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LemonYellow';
+    src: url('fonts/dk_lemon_yellow_sun-webfont.woff2') format('woff2'),
+         url('fonts/dk_lemon_yellow_sun-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Babydoll';
+    src: url('fonts/babydoll-webfont.woff2') format('woff2'),
+         url('fonts/babydoll-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sunrise';
+    src: url('fonts/sunrise_international_demo-webfont.woff2') format('woff2'),
+         url('fonts/sunrise_international_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LoveHeart';
+    src: url('fonts/lovehearts_xyz-webfont.woff2') format('woff2'),
+         url('fonts/lovehearts_xyz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*Fonts End*/
 
 /*
@@ -77,6 +118,7 @@ a{
 
 section p{
     font-family: 'Roboto', sans-serif;
+    color: #563712;
     font-size: 1.8rem;
 }
 
@@ -110,7 +152,7 @@ section h1{
   right: 0;
   bottom: 0;
   top: 0;
-  background: #0C4056;
+  background: #D3FFA6;
   opacity: 0.8; }
 
 /*
@@ -191,7 +233,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #16162d;
+    background-color: #20c62e;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -218,7 +260,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: #F2CB05;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -247,7 +289,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #FB2162, #ffe838);
+    background: linear-gradient(to right, #F28705, #F2CB05);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -279,15 +321,15 @@ li{
 
 .landing-text{
     position: absolute;
-    top: 30%;
+    top: 18%;
     width: 100%;
     text-align: center;
     z-index: 1;
 }
 
 .landing-text h1{
-    font-size: 12rem;
-    font-family: 'Super Retro', sans-serif;
+    font-size: 22rem;
+    font-family: 'SongFont', sans-serif;
     background: #F28705;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -296,8 +338,8 @@ li{
 }
 
 .landing-text h2{
-    font-size: 10rem;
-    font-family: 'Super Retro', sans-serif;
+    font-size: 18rem;
+    font-family: 'SongFont', sans-serif;
     background: #F2CB05;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -306,8 +348,10 @@ li{
 }
 
 .landing-text h6{
-    font-size: 3rem;
+    font-size: 6rem;
+    font-family: 'LemonYellow', sans-serif;
     font-weight: 400;
+    background: #D7C400;
     opacity: 0.7;
 }
 /*End header*/
@@ -327,18 +371,23 @@ li{
 }
 
 .about-heading h1{
-    font-size: 10rem;
-    opacity: .3;
+    font-size: 12rem;
+    font-family: 'LoveHeart', sans-serif;
+    color: #F28705;
+    opacity: .35;
 }
 
 .about-heading h6{
-    font-size: 2rem;
+    font-size: 5rem;
+    font-family: 'Demode', sans-serif;
+    color: #858c03;
     font-weight: 300;
 }
 
 .profile-img{
     max-width: 30rem;
     flex: 1;
+    color: #858c03;
     margin: 0 3rem 7rem 0;
 }
 
@@ -350,6 +399,13 @@ li{
     flex: 1;
 }
 
+.about-details p{
+    font-size: 2rem;
+    font-family: 'Babydoll', sans-serif;
+    color: #858c03;
+    font-weight: 300;
+}
+
 .social-media{
     margin-top: 5rem;
 }
@@ -357,6 +413,18 @@ li{
 .social-media i{
     font-size: 5rem;
     transition: color 650ms;
+}
+
+.fa-instagram-square{
+    color: #858c03;
+}
+
+.fa-github-square{
+    color: #858c03;
+}
+
+.fa-linkedin{
+    color: #858c03;
 }
 
 .fa-instagram-square:hover{
@@ -387,8 +455,35 @@ li{
     padding: 2rem;
 }
 
+.skills p{
+    font-size: 2rem;
+    font-family: 'Babydoll', sans-serif;
+    color: #858c03;
+    font-weight: 300;
+}
+
+.skills h1{
+    font-size: 3rem;
+    font-family: 'LemonYellow', sans-serif;
+    color: #858c03;
+    font-weight: 300;
+}
+
+.section-heading h1{
+    font-size: 5rem;
+    font-family: 'Demode', sans-serif;
+    color : #858c03
+}
+
+.section-heading h6{
+    font-size: 3rem;
+    font-family: 'LemonYellow', sans-serif;
+    color : #858c03
+}
+
 .skills h1{
     text-transform: uppercase;
+    color: #858c03;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
@@ -425,18 +520,41 @@ li{
 }
 
 .portfolio-img{
-    width: 50rem;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.portfolio-img img{
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.portfolio-img script{
+    width: 100%;
+    box-sizing: border-box;
     flex: 1;
 }
 
 .portfolio-description{
     flex: 1;
-  margin: 1rem;
+    margin: 1rem;
 }
 
 .portfolio-description h1{
-    font-size: 3rem;
+    font-size: 3.6rem;
+    font-family: 'LemonYellow', sans-serif;
     font-weight: 300;
+    color : #897419;
+    margin: 1rem 0;
+}
+
+.portfolio-description p{
+    font-size: 2rem;
+    font-family: 'Babydoll', sans-serif;
+    font-weight: 300;
+    color : #897419;
     margin: 1rem 0;
 }
 
@@ -444,83 +562,24 @@ li{
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 300;
-    color: #eee;
+    font-family: 'Demode', sans-serif;
+    color : #858c03;
 }
 
 .portfolio-description .cta{
     display: inline-black;
     margin-top: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
+    font-family: 'SongFont', sans-serif;
     text-transform: uppercase;
     color: #3883ff;
 }
 
 .portfolio-description .cta:hover{
+    font-family: 'SongFont', sans-serif;
     color: #2f67cd;
 }
 /*End services*/
-
-/*Start timeline*/
-.timeline ul{
-    border-left: 4px solid #ffe838;
-    border-radius: .8rem;
-    background-color: rgba(0, 0, 0, 0.05);
-    margin: 0 auto;
-    position: relative;
-    padding: 5rem;
-    list-style: none;
-    text-align: left;
-    width: 70%;
-}
-
-.timeline h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    opacity: .3;
-}
-
-.timeline .date{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    position: relative;
-}
-
-.timeline .date:last-of-type{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
-
-.timeline .date::before,
-.timeline .date::after{
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.timeline .date::before{
-    content: attr(data-date);
-    left: -21rem;
-    text-align: right;
-    min-width: 12rem;
-    font-size: 1.5rem;
-}
-
-.timeline .date::after{
-    content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
-    border-radius: 100%;
-    left: -8rem;
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #313534;
-}
-/*End timeline*/
 
 /*Start contact*/
 div {
@@ -565,7 +624,8 @@ input[type="image"]:hover{
 }
 
 .copyright p{
-    font-size: 1.4rem;
+    font-size: 2rem;
+    font-family: 'LemonYellow', sans-serif;
 }
 /*End footer*/
 
@@ -586,7 +646,7 @@ input[type="image"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px) {
     body{
-        background: url("images/sitebag2.jpg") no-repeat center fixed;
+        background: #D3FFA6;
         background-size: cover;
     }
 
@@ -612,6 +672,8 @@ input[type="image"]:hover{
 
     .about-heading h1{
         font-size: 8rem;
+        background: #F28705;
+        -webkit-background-clip: text;
     }
 
     .section-heading h1{
@@ -656,7 +718,7 @@ input[type="image"]:hover{
     }
 
     .landing-text h6{
-        font-size: 1.4rem;
+        font-size: 4rem;
     }
 
     .nav-link{
@@ -677,6 +739,7 @@ input[type="image"]:hover{
 
     .portfolio-img{
         max-width: 100%;
+        margin: 0 auto;
         margin-bottom: 2rem;
         order: 1;
     }
