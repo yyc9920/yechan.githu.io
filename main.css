@@ -605,7 +605,7 @@ li{
 }
 
 .timeline .date img{
-    width: 19%;
+    width: 10rem;
     box-sizing: border-box;
     flex: 1;
 }
